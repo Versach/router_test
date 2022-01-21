@@ -2,7 +2,9 @@
 
 At the command prompt, type `./mvnw spring-boot:run`
 
-- 8080 port by default There is some test
+- 8080 port by default 
+
+There is some test
 
 Uses A* algorithm to find route There is some test
 
