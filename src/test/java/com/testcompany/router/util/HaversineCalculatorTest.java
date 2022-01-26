@@ -8,6 +8,6 @@ import static org.assertj.core.api.Assertions.offset;
 class HaversineCalculatorTest {
     @Test
     void shouldComputeDistance() {
-        assertThat(HaversineCalculator.computeDistance(10, 20, 30, 20)).isCloseTo(2224.526, offset(0.001d));
+        assertThat(HaversineCalculator.computeDistance(10, 20, 30, 10)).isCloseTo(2454.593, offset(0.001d));
     }
 }
